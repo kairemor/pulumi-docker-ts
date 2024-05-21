@@ -1,0 +1,7 @@
+name: example-docker-ts
+runtime: nodejs
+description: A minimal TypeScript Pulumi program to deploy simple web app with docker
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
